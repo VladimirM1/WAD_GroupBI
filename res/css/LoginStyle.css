@@ -1,0 +1,73 @@
+#upperline{
+    font-size : 50px;
+    background-color: lightgray;
+    border-radius: 25px;
+    padding: 20px;
+}
+#upperline a{
+    text-decoration: none;
+    color : black;
+}
+#upperline a:hover{
+    background-color : lightblue;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+}
+
+.loginBox {
+    background-color: lightgray;
+    background-attachment: fixed;
+    padding: 5%;
+    border-radius: 20px; /* Rounded corners */
+    text-align: center;
+
+}
+
+.loginBox h2 {
+    margin-top: 0;
+    color: black;
+
+}
+
+.formGroup {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+.formGroup input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#CreateAccount,#ForgotPassword{
+    color:blue;
+}

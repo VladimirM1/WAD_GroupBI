@@ -1,14 +1,47 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="res/css/LoginStyle.css">
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Login</title>
+    <script>
+        function redirectToPage() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            if (username.trim() !== "" && password.trim() !== "") {
+                location.href = "index.html";
+            } else {
+                alert("Please fill in the input fields before proceeding.");
+            }
+        }
+    </script>
 </head>
 
 <body>
+<h1 id="upperline"><a href="index.html">Home</a>
+    <img  src="res/me.png" alt="Avatar" style="float: right;width:70px;height:70px">
+</h1>
+<div class="loginContainer">
+    <div class="loginBox">
+        <h2>Welcome to PostIt</h2>
+        <p id="CreateAccount">Create an account</p>
+        <p>or</p>
+        <p>please log in</p>
+        <form action="#" method="post">
+            <div class="formGroup">
+                <input type="text" id="username" name="username" placeholder="Username" required>
+            </div>
+            <div class="formGroup">
+                <input type="password" id="password" name="password" placeholder="Password" required>
+            </div>
+            <button type="button" onclick="redirectToPage()">Log in</button>
+        </form>
+        <p id="ForgotPassword"> Forgot password?</p>
+    </div>
+</div>
 
 </body>
 </html>
