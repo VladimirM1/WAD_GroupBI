@@ -85,27 +85,5 @@ button:hover {
 }
 
 
-.AddPostContainer {
-    margin-top: 50px;
-  }
-  .AddPostBox {
-    background-color: lightgray;
-    background-attachment: fixed;
-    width: 500px;
-    margin: 0 auto;
-    padding: 20px;
-    
-  }
-  
-  .AddPostBox form .formGroup {
-    margin-bottom: 10px;
-  }
-  
-  .AddPostBox form .formGroup textarea {
-    width: 100%;
-    height: 100px;
-  }
-  .AddPostBox form .formGroup input[type="file"] {
-    width: 100%;
-  }
+
   
