@@ -1,0 +1,78 @@
+#upperline{
+    font-size : 50px;
+    background-color: lightgray;
+    border-radius: 25px;
+    padding: 20px;
+}
+#upperline a{
+    text-decoration: none;
+    color : black;
+}
+#upperline a:hover{
+    background-color : lightblue;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+div > p{
+    color : black;
+}
+div + p{
+    font-size: 5px;
+}
+div ~ p {
+    background-color : lightgray;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.AddPostContainer {
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .AddPostBox {
+    background-color: lightgray;
+    background-attachment: fixed;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+
+  .AddPostBox form .formGroup {
+    margin-bottom: 15px;
+    text-align: center;
+    align-items: center;
+}
+  
+  
+  .AddPostBox form .formGroup textarea {
+    width: 100%;
+    height: 100px;
+  }
+
+  .AddPostBox form .formGroup input[type="file"] {
+    width: 100%;
+  }
+  
+ 
