@@ -62,7 +62,7 @@ button:hover {
   }
 
   .AddPostBox form .formGroup input[type="file"] {
-    width: 100%;
+    width: 20%;
   }
   
  
