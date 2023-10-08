@@ -20,16 +20,6 @@ body, html {
     background-color: white;
 }
 
-div > p{
-    color : black;
-}
-div + p{
-    font-size: 5px;
-}
-div ~ p {
-    background-color : lightgray;
-}
-
 button {
     background-color: #007bff;
     color: #fff;
