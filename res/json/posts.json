@@ -2,10 +2,10 @@
     {
       "author": "Mart",
       "creation": "18.10.2023",
-      "picture": "res/images/dog.webp",
+      "picture": "/res/images/dog.webp",
       "caption": "Beauty god",
-      "profilepic": "res/me.png",
-      "like": "res/like.png"
+      "profilepic": "/res/me.png",
+      "like": "/res/like.png"
     },
     {
       "author": "Paul",

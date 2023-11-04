@@ -5,15 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="posts.js"></script>
     <title>AddPost</title>
 </head>
 <body>
     <h1 id="upperline"><a href="index.html">Home</a>
         <img  src="res/me.png" alt="Avatar" style="float: right;width:70px;height:70px">
+        <h4>
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="addPost.html">Add Post</a></li>
+                <li><a href="login.html">Log In</a></li>
+            </ul>
+        </h4>
     </h1>
+    
     <div class="AddPostContainer">
         <div class="AddPostBox">
             <form id="addPostForm" action="index.html">
+            <div id="posts-container">
                 <div class="formGroup">
                     <label for="postBody">Post Body:</label>
                     <textarea id="postBody" name="postBody" required></textarea>
@@ -26,8 +36,12 @@
                 <div class="formGroup">
                     <button type="submit" class="create-post-btn">Create Post</button>
                 </div>
+            </div>
             </form>
         </div>
     </div>
+
+
+
 </body>
 </html>
