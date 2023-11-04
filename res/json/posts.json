@@ -10,73 +10,73 @@
     {
       "author": "Paul",
       "creation": "11.09.2023",
-      "picture": "res/images/rat.webp",
+      "picture": "/res/images/rat.webp",
       "caption": "Funny rat",
-      "profilepic": "res/me.png",
-      "like": "res/like.png"
+      "profilepic": "/res/me.png",
+      "like": "/res/like.png"
     },
     {
       "author": "Stella",
       "creation": "08.10.2023",
-      "picture": "res/images/run.webp",
+      "picture": "/res/images/run.webp",
       "caption": "Sport is for strong people",
-      "profilepic": "res/me.png",
-      "like": "res/like.png"
+      "profilepic": "/res/me.png",
+      "like": "/res/like.png"
     },
     {
       "author": "Broski",
       "creation": "23.09.2023",
-      "picture": "res/images/selfie.webp",
+      "picture": "/res/images/selfie.webp",
       "caption": "Monkey selfie",
-      "profilepic": "res/me.png",
-      "like": "res/like.png"
+      "profilepic": "/res/me.png",
+      "like": "/res/like.png"
     },
     {
       "author": "Helen",
       "creation": "19.12.2023",
-      "picture": "res/images/tokyo.jpg",
+      "picture": "/res/images/tokyo.jpg",
       "caption": "Nice Japanese city",
-      "profilepic": "res/me.png",
-      "like": "res/like.png"
+      "profilepic": "/res/me.png",
+      "like": "/res/like.png"
     },
     {
       "author": "Paul",
       "creation": "03.09.2023",
-      "picture": "res/images/circus.webp",
+      "picture": "/res/images/circus.webp",
       "caption": "Awesome perfomance tonight",
-      "profilepic": "res/me.png",
-      "like": "res/like.png"
+      "profilepic": "/res/me.png",
+      "like": "/res/like.png"
     },
     {
       "author": "Marcus",
       "create date": "21.11.2023",
-      "picture": "res/images/tartu.jpg",
+      "picture": "/res/images/tartu.jpg",
       "caption": "Tartu",
-      "profilepic": "res/me.png",
-      "like": "res/like.png"
+      "profilepic": "/res/me.png",
+      "like": "/res/like.png"
     },
     {
       "author": "Maria",
       "creation": "05.10.2023",
-      "picture": "res/images/football.jpg",
+      "picture": "/res/images/football.jpg",
       "caption": "Bad game, feel upset",
-      "profilepic": "res/me.png",
-      "like": "res/like.png"
+      "profilepic": "/res/me.png",
+      "like": "/res/like.png"
     },
     {
       "author": "Cristopher",
       "creation": "01.09.2023",
-      "picture": "res/images/delta.jpg",
+      "picture": "/res/images/delta.jpg",
       "caption": "Delta Uni",
-      "profilepic": "res/me.png",
-      "like": "res/like.png"
+      "profilepic": "/res/me.png",
+      "like": "/res/like.png"
     },
     {
       "author": "Joseph",
       "creation": "16.11.2023",
-      "picture": "res/images/rademar.jpg",
+      "picture": "/res/images/rademar.jpg",
       "caption": "Pretty good sport store",
-      "profilepic": "res/me.png",
-      "like": "res/like.png"
+      "profilepic": "/res/me.png",
+      "like": "/res/like.png"
     }
   ]
