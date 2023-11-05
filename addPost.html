@@ -8,17 +8,24 @@
     <script src="posts.js"></script>
     <title>AddPost</title>
 </head>
-<body>
-    <h1 id="upperline"><a href="index.html">Home</a>
-        <img  src="res/me.png" alt="Avatar" style="float: right;width:70px;height:70px" onclick="dropdownmenu()">
-        <h4>
-            <ul class="nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="addPost.html">Add Post</a></li>
-                <li><a href="login.html">Log In</a></li>
-            </ul>
-        </h4>
-    </h1>
+<body onload="dropdownmenu()">
+    <header class="header">
+        <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Log In</a></li>
+        </ul>
+
+        <div class="dropdown">
+            <a class="logo"><img src="res/me.png" width="50" height="50" alt="My picture"></a>
+            <div class="dropdown-content">
+              <p>John Doe</p>
+              <p>john.doe@ut.ee</p>
+              <p>logout</p>
+      
+            </div>
+          </div>
+        
+    </header>
     
     <div class="AddPostContainer">
         <div class="AddPostBox">
@@ -31,7 +38,6 @@
                 <div class="formGroup">
                     <label for="file">Select file:</label>
                     <input type="file" id="file" name="file">
-                    <!-- <label for="file" class="file-upload-btn">Choose a file</label> -->
                 </div>
                 <div class="formGroup">
                     <button type="submit" class="create-post-btn">Create Post</button>
