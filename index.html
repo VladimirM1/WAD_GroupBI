@@ -16,14 +16,23 @@
     <title>Home</title>
 
 </head>
-<body onload="posts()">
+<body onload="posts(); dropdownmenu()">
 <header class="header">
     <ul class="nav">
         <li><a href="index.html">Home</a></li>
         <li><a href="addPost.html">Add Post</a></li>
+        <li><a href="Login.html">Login page</a></li>
     </ul>
+    <div class="dropdown">
 
-    <a class="logo" href="Login.html"><img src="res/me.png" width="50" height="50" alt="My picture"></a>
+    <a class="logo" ><img src="res/me.png" width="50" height="50" alt="My picture"></a>
+    <div class="dropdown-content">
+        <p>John Doe</p>
+        <p>john.doe@ut.ee</p>
+        <p>logout</p>
+    </div>
+    </div>
+
 </header>
 <div class="flex-container">
 </div>
