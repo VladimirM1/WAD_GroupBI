@@ -1,48 +1,44 @@
 function posts() {
-    fetch("/res/json/posts.json")
+    fetch("https://api.npoint.io/7d9797c9cba2f88c625e")
     .then((response) => response.json())
     .then(posts => {
         const postsContainer = document.getElementById("posts-container");
 
         for (let post of posts) {
-            const postDiv = document.createElement("div");
-            postDiv.classList.add("post");
+            console.log(post);
 
-            const authorDiv = document.createElement("div");
-            authorDiv.classList.add("author");
-            authorDiv.textContent = `Author: ${post.author}`;
+            const postContainer = document.createElement('div');
+            const postDateElement = document.createElement('span');
+            const profilePicElement = document.createElement('img');
+            const likeElement = document.createElement('img');
+            const likeAnchor = document.createElement('a');
+            likeAnchor.href = '#';
+            const profilePicAnchor = document.createElement('a');
+            profilePicAnchor.href = '#';
 
-            const creationDiv = document.createElement("div");
-            creationDiv.classList.add("creation");
-            creationDiv.textContent = `Creation Date: ${post.creation}`;
+            profilePicElement.className = "post-profile-pic";
+            profilePicElement.setAttribute("width", "6%");
+            likeElement.setAttribute("width", "7%");
+            profilePicElement.src = post.profilepic;
+            likeElement.src = post.like;
+            postDateElement.textContent = post.creation;
+            const postCaptionElement = document.createElement('p');
+            postCaptionElement.textContent = post.caption;
+            const postImageElement = document.createElement("img");
+            postImageElement.className = "post-image";
+            postImageElement.src = post.picture;
 
-            const pictureImg = document.createElement("img");
-            pictureImg.classList.add("picture");
-            pictureImg.src = post.picture;
-            pictureImg.alt = post.caption;
+            likeAnchor.appendChild(likeElement);
+            profilePicAnchor.appendChild(profilePicElement);
 
-            const captionDiv = document.createElement("div");
-            captionDiv.classList.add("caption");
-            captionDiv.textContent = post.caption;
+            postContainer.appendChild(profilePicAnchor);
+            postContainer.appendChild(postDateElement);
+            postContainer.appendChild(postImageElement);
+            postContainer.appendChild(postCaptionElement);
+            postContainer.appendChild(likeAnchor);
 
-            const profilepicImg = document.createElement("img");
-            profilepicImg.classList.add("profilepic");
-            profilepicImg.src = post.profilepic;
-            profilepicImg.alt = `Profile Pic of ${post.author}`;
-
-            const likeImg = document.createElement("img");
-            likeImg.classList.add("like");
-            likeImg.src = post.like;
-            likeImg.alt = "Like";
-
-            postDiv.appendChild(authorDiv);
-            postDiv.appendChild(creationDiv);
-            postDiv.appendChild(pictureImg);
-            postDiv.appendChild(captionDiv);
-            postDiv.appendChild(profilepicImg);
-            postDiv.appendChild(likeImg);
-
-            postsContainer.appendChild(postDiv);
+            const flexContainer = document.getElementsByClassName("flex-container");
+            flexContainer[0].appendChild(postContainer);
         }
     })
 };
