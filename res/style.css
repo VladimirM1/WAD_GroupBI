@@ -109,3 +109,9 @@ footer{
     color:rgb(255, 255, 255);
     text-align: center;
 }
+.jspic{
+    width : 100%;
+}
+.profilepic{
+    margin-right: 10px;
+}
