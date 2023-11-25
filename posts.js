@@ -1,5 +1,5 @@
 function posts() {
-    fetch("https://api.npoint.io/7d9797c9cba2f88c625e")
+    fetch("https://api.npoint.io/5ad0bd3f097753b08350")
     .then((response) => response.json())
     .then(posts => {
         const postsContainer = document.getElementById("posts-container");
